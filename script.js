@@ -3,6 +3,7 @@ function updateClock() {
         timeZone: 'Europe/Warsaw', 
         hour: '2-digit', 
         minute: '2-digit', 
+        seconds: '2-digit',
         hour12: false 
     };
     const now = new Date().toLocaleTimeString('pl-PL', options);
